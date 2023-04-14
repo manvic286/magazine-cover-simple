@@ -1,0 +1,147 @@
+.main{
+    width: 25em;
+    height: 36em;
+    padding: 1em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: -1em 0.2em 2em -0.5em black;
+    overflow: hidden;
+    background-image: url('portrait.jpg');
+    background-position:  11em 0em;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+}
+
+.fl{
+    width: 1px;
+    height: 6.5em;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(214, 30, 30);
+    position: absolute;
+    left: 43%;
+    margin-top: -1em;
+}
+
+.fa, .shi, .on {
+    font-size: 8em;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.fa{
+    margin-left: 0.15em;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+}
+
+.shi{
+    margin-left: 0.8em;
+    margin-top: 0.45em;
+}
+
+.on{
+    margin-left: 0.8em;
+    margin-top: 0.85em;
+}
+
+.week{
+    position: absolute;
+    right: 25%;
+    top: 43%;
+    transform: rotate(90deg);
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: rgb(214, 30, 30);
+}
+
+.present{
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+
+.circle{
+    width: 10em;
+    height: 9.5em;
+    border-radius: 50%;
+    text-align: center;
+    display: grid;
+    padding-top: 0.5em;
+    place-items: center;
+    margin-left: -2em;
+    background-color: rgb(214, 30, 30);
+    position: absolute;
+    top: 27%;
+    z-index: -1;
+}
+
+.date{
+    position: absolute;
+    width: 1em;
+    top: 51%;
+    right: 45%;
+}
+
+.day{
+    font-size: 2em;
+    font-weight: bolder;
+    color: red;
+}
+
+.month, .year{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 0.7em;
+    width:10em;
+    color: aliceblue;
+}
+
+.quote{
+    font-size: 2em;
+    color: rgba(255, 183, 183, 0.349);
+}
+
+.xtra{
+    position: absolute;
+    width: 13em;
+    bottom: 1em;
+    left: 3.5em;
+    font-size: 0.8em;
+}
+
+.title{
+    font-weight: bolder;
+    color: rgb(211, 39, 39);
+}
+
+.sub{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.inf{
+    font-weight: bolder;
+}
+
+
+
+site{
+    color: rgb(214, 30, 30);
+    font-weight: bold;
+}
+
+.ll{
+    width: 1px;
+    height: 15em;
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: -1em;
+    right: 35%;
+}
